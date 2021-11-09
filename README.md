@@ -16,10 +16,10 @@ Selenium Web Otomasyon
 
 
 ## 📥 Installation
-Clone the repo
+Clone the repo 
 
 ```sh
-git clone https://github.com/113-GittiGidiyor-Java-Spring-Bootcamp/gittigidiyor-graduation-project-mGungorr
+git clone https://github.com/remziusta/TestiniumTask.git
 ```
 
 
