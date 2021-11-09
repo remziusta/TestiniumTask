@@ -14,6 +14,6 @@ Selenium Web Otomasyon
 - Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
 - Ürün sepetten silinerek sepetin boş olduğu kontrol edilir.
 
-
-## VIDEO LİNKİ
+## TASK VIDEO
+https://user-images.githubusercontent.com/37660677/140926466-6a0b0899-c7f5-4163-a240-26692a9e167e.mp4
 
