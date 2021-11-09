@@ -23,7 +23,12 @@ public class TestMain extends BaseTest {
     @Test
     public void test() {
         //Login Test
-        //loginPage.moveToLogIn().clickLogIn().sendEmail().sendPassword().submitButton();
+        loginPage
+                .moveToLogIn()
+                .clickLogIn()
+                .sendEmail()
+                .sendPassword()
+                .submitButton();
 
         //Search And Scroll Down Page Test
         searchAndAddCartItemProcess

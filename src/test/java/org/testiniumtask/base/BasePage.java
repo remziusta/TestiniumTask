@@ -1,6 +1,5 @@
 package org.testiniumtask.base;
 
-import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -44,7 +43,7 @@ public class BasePage {
     }
 
     public void clickJsElement(By by){
-        wait.until(ExpectedConditions.elementToBeClickable(by));
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
         WebElement btn = driver.findElement(by);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click()",btn);
